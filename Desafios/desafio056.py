@@ -6,7 +6,7 @@ totidade = 0
 pesquisados = int(input('Quantas pessoas serão pesquisadas? '))
 
 for i in range(0, pesquisados):
-    #nome = str(input('Qual o seu nome? '))
+    nome = str(input('Qual o seu nome? '))
     idade = int(input('Qual a sua idade? '))
     sexo = str(input('Qual o seu sexo? H ou M? '))
     totidade += idade
@@ -20,4 +20,4 @@ for i in range(0, pesquisados):
 
 print(f'A média de idade é de {totidade/pesquisados}')
 print(f'A idade do homem mais velho é de {homem}.')
-print(f'Existem {mulher} com menos de 20 anos.')
+print(f'Existem {mulher} mulher(es) com menos de 20 anos.')

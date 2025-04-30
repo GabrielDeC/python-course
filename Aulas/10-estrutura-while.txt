@@ -1,0 +1,14 @@
+A estrutura While é mais flexível que a estrutura For
+
+Sua estrutura é uma For "sem limite" e só para sob uma condição
+
+Chama-se estrutura de repetição com variável lógica
+
+while not x:
+    if c
+        passo
+    if sc
+        pula
+    if moeda
+        pega
+pega
