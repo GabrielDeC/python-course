@@ -12,3 +12,28 @@ while not x:
     if moeda
         pega
 pega
+
+
+A estrutura de repetição While sempre será executado até finalizar a condição definida, no entanto, se for necessário parar no meio da condição definida pode ser utilizada a quebra da condição.
+
+Exemplo:
+
+while True:
+    if c:
+        x
+    if a:
+        y
+    if b:
+        z
+    break
+pega
+
+
+n = cont = 1
+
+while True:
+    n = int(input('Digite um número: '))
+    if n == 999:
+        break
+    cont += n
+print(cont)
