@@ -1,0 +1,30 @@
+Tupla
+
+Se comporta como uma variável capaz de armazenar mais uma informação.
+Ela é linear e as posições funcionam da mesma forma que string do 0 até o último termo;
+
+lanche = (0, 1, 2, 3)
+
+Pode ser adicionado em estruturas de reptição como o for
+
+for c in lanche:...
+
+AS TUPLAS SÃO IMUTÁVEIS
+
+lanche
+range(0, len(lanche))
+for pos, comida in enumerate(lanche)
+
+sorted(lanche) ordena a tupla em formato de lista
+
+soma de tuplas 'cola' uma na outra. tupla a + tupla b != tupla b + tupla a
+
+tupla.count(5) conta a frequência do 5 dentro da tupla.
+
+tupla.index(8) informa a posição do dígito 8, no entanto, se tiver mais de uma será informada a primeira ocorrência.
+
+tupla.index(8, 4) informa a posição do dígito 8 a partir da posição 4.
+
+tuplas aceitam mais de um tipo inserido.
+
+del(tupla) apaga a tupla
