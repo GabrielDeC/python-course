@@ -1,0 +1,12 @@
+listas
+
+As listas são construções parecidas as tuplas, exceto pelo fato de serem mais manipuláveis.
+
+Como o
+    .append() permite que um elemento seja adicionado ao final da lista
+    .insert([], ) permite que um elemento seja inserido antes da posição declarada dentro do método
+    list() cria uma lista
+    del lista[] elimina a posição inserida no parametro
+    .pop() elimina o elemento declarado dentro do método e caso não seja declarado nenhum, remove o último índice
+    .remove() elimina um valor declarado dentro do método
+    .sort() ordena os valores declarados em uma lista e se colocado .sort(reverse=True) é ordenado de forma invertida e é uma mudança real, diferente das tuplas
