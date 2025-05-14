@@ -10,3 +10,15 @@ Como o
     .pop() elimina o elemento declarado dentro do método e caso não seja declarado nenhum, remove o último índice
     .remove() elimina um valor declarado dentro do método
     .sort() ordena os valores declarados em uma lista e se colocado .sort(reverse=True) é ordenado de forma invertida e é uma mudança real, diferente das tuplas
+
+    O conceito de lista dentro de listas pode ser representado por listas compostas e pode ser criada na seguinte forma
+    1.) pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
+    2.) pessoas = list()
+        contato['Pedro', 25]
+        pessoas.append(contato[:])
+
+A interação entre as informações pode ser feita definindo o índice da lista maior com o índice da lista menor:
+    Exemplo: pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
+    print(pessoas[0][0]) = Pedro
+    print(pessoas[1][1]) = 19
+    print(pessoas[1]) = ['Maria', 19]
